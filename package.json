@@ -1,6 +1,6 @@
 {
   "name": "@mattevenson/subgraph-to-json-schema",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Convert GraphQL schema for a subgraph to JSON schema",
   "author": "Matt Evenson @mattevenson",
   "bin": {
