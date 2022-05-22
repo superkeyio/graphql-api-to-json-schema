@@ -4,7 +4,7 @@
   "description": "Convert GraphQL schema for a subgraph to JSON schema",
   "author": "Matt Evenson @mattevenson",
   "bin": {
-    "subgraph-to-json-schema": "node ./dist/index.js"
+    "subgraph-to-json-schema": "./dist/index.js"
   },
   "homepage": "https://github.com/mattevenson/subgraph-to-json-schema",
   "license": "MIT",
