@@ -4,14 +4,13 @@
   "description": "Convert GraphQL schema for a subgraph to JSON schema",
   "author": "Matt Evenson @mattevenson",
   "bin": {
-    "subgraph-to-json-schema": "./dist/index.js"
+    "subgraph-to-json-schema": "./bin/run"
   },
   "homepage": "https://github.com/mattevenson/subgraph-to-json-schema",
   "license": "MIT",
   "main": "dist/index.js",
   "repository": "git://github.com/mattevenson/subgraph-to-json-schema.git",
   "files": [
-    "/bin",
     "/dist",
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
