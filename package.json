@@ -1,15 +1,15 @@
 {
-  "name": "@mattevenson/subgraph-to-json-schema",
-  "version": "4.0.0",
+  "name": "graphql-api-to-json-schema",
+  "version": "1.0.0",
   "description": "Convert GraphQL schema for a subgraph to JSON schema",
   "author": "Matt Evenson @mattevenson",
   "bin": {
-    "subgraph-to-json-schema": "./bin/run"
+    "graphql-api-to-json-schema": "./bin/run"
   },
-  "homepage": "https://github.com/mattevenson/subgraph-to-json-schema",
+  "homepage": "https://github.com/mattevenson/graphql-api-to-json-schema",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "git://github.com/mattevenson/subgraph-to-json-schema.git",
+  "repository": "git://github.com/mattevenson/graphql-api-to-json-schema.git",
   "files": [
     "/dist",
     "/npm-shrinkwrap.json",
@@ -42,19 +42,13 @@
     "typescript": "^4.4.3"
   },
   "oclif": {
-    "bin": "subgraph-to-json-schema",
-    "dirname": "subgraph-to-json-schema",
+    "bin": "graphql-api-to-json-schema",
+    "dirname": "graphql-api-to-json-schema",
     "commands": "./dist/commands",
     "plugins": [
       "@oclif/plugin-help",
       "@oclif/plugin-plugins"
-    ],
-    "topicSeparator": " ",
-    "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
-    }
+    ]
   },
   "scripts": {
     "start": "ts-node src/index.ts",
@@ -69,7 +63,7 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "bugs": "https://github.com/mattevenson/hello-world/issues",
+  "bugs": "https://github.com/mattevenson/graphql-api-to-json-schema/issues",
   "keywords": [
     "oclif"
   ],
