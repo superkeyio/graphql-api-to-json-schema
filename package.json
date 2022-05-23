@@ -1,6 +1,6 @@
 {
   "name": "graphql-api-to-json-schema",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert GraphQL schema for a subgraph to JSON schema",
   "author": "Matt Evenson @mattevenson",
   "bin": {
